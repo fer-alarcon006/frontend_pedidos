@@ -34,7 +34,7 @@ const Cart = () => {
         <h1 className="text-3xl font-bold mb-6">Carrito</h1>
 
         {cart.length === 0 && (
-          <p className="text-gray-500">Tu carrito está vacío 😢</p>
+          <p className="text-gray-500">Tu carrito está vacío </p>
         )}
 
         {cart.map((item, i) => (
